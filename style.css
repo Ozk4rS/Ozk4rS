@@ -73,7 +73,16 @@ body{
   color: var(--txt-color);
   text-align: left;
   font-size: 10px;
+  
 }
+
+
+.envelope-wrapper.flap {
+  animation: flap 2s linear;
+}
+
+
+
 .heart {
   position: absolute;
   top: 50%;
@@ -110,6 +119,7 @@ body{
   bottom: 100px;
   transform: scale(1.5);
   transition-delay: 1s;
+  height: 100%;
 }
 .flap > .heart {
   transform: rotate(90deg);
